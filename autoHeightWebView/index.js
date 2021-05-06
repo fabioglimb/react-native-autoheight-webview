@@ -120,7 +120,7 @@ Platform.OS === 'android' &&
 
 Platform.OS === 'ios' &&
   Object.assign(defaultProps, {
-    viewportContent: 'width=device-width',
+    viewportContent: `width=device-width, user-scalable='no'}`,
   });
 
 AutoHeightWebView.defaultProps = defaultProps;
